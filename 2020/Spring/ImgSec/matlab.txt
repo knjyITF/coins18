@@ -1,0 +1,35 @@
+img1 = imread("img1.jpg");
+img2 = imread("img2.jpg");
+img3 = imread("img3.jpg");
+
+%画像のグレースケール化
+img1 = rgb2gray(img1);
+img2 = rgb2gray(img2);
+img3 = rgb2gray(img3);
+
+%画像のベクトル化
+v1 = reshape(img1,[],1);
+v2 = reshape(img2,[],1);
+v3 = reshape(img3,[],1);
+
+%平均ベクトルmを導出
+m = (v1 + v2 + v3)/3;
+
+%平均要素を取り除く
+mt = m.';
+vm1 = v1 - ((mt*v1)/(mt*m))*m;
+vm2 = v2 - ((mt*v2)/(mt*m))*m;
+vm3 = v3 - ((mt*v3)/(mt*m))*m;
+
+%平均画像を生成
+imgM = reshape(m,160,160);
+img1a = reshape(vm1,160,160);
+img2a = reshape(vm2,160,160);
+img3a = reshape(vm3,160,160);
+
+
+figure
+imshow(imgM)
+imshow(img1a);
+imshow(img2a);
+imshow(img3a);
