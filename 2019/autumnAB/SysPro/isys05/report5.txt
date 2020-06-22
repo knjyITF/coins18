@@ -1,0 +1,209 @@
+学籍番号: 201811395
+氏名: 山本雄太
+演習番号: 5
+
+課題1を実行した結果を以下に示す．
+$ ./ex5_1 390 507
+39
+$ ./ex5_1 200 100
+100
+$ ./ex5_1 1000 1000
+1000
+
+課題2を実行した結果を以下に示す.
+$ ./ex5_2 ./ex5_numbers.txt
+1
+2
+3
+8
+9
+11
+16
+17
+20
+21
+22
+23
+25
+30
+35
+36
+38
+41
+43
+44
+47
+48
+54
+61
+62
+65
+67
+70
+72
+73
+78
+79
+80
+82
+87
+92
+93
+99
+103
+104
+109
+110
+111
+115
+117
+118
+120
+124
+125
+126
+127
+128
+130
+131
+135
+142
+145
+149
+153
+156
+159
+167
+169
+170
+172
+174
+175
+177
+180
+181
+185
+190
+192
+193
+194
+196
+198
+199
+78 numbers read
+Input number 1
+1: Found
+Input number 2
+2: Found
+Input number 3
+3: Found
+Input number 199
+199: Found
+Input number 200
+200: Not found
+Input number 50
+50: Not found
+
+課題3を実行した結果を以下に示す.
+$ ./ex5_3 ./ex5_numbers.txt
+1
+2
+3
+8
+9
+11
+16
+17
+20
+21
+22
+23
+25
+30
+35
+36
+38
+41
+43
+44
+47
+48
+54
+61
+62
+65
+67
+70
+72
+73
+78
+79
+80
+82
+87
+92
+93
+99
+103
+104
+109
+110
+111
+115
+117
+118
+120
+124
+125
+126
+127
+128
+130
+131
+135
+142
+145
+149
+153
+156
+159
+167
+169
+170
+172
+174
+175
+177
+180
+181
+185
+190
+192
+193
+194
+196
+198
+199
+7803
+
+課題4を実行した結果を以下に示す.
+$ ./ex5_4 ./ex5_words.txt the
+./ex5_4: "the" is found in ./ex5_words.txt
+$ ./ex5_4 ./ex5_words.txt only
+./ex5_4: "only" is found in ./ex5_words.txt
+$ ./ex5_4 ./ex5_words.txt strategy
+./ex5_4: "strategy" is not found in ./ex5_words.txt
+$ ./ex5_4 ./ex5_words.txt guarantee
+./ex5_4: "guarantee" is not found in ./ex5_words.txt
+$ ./ex5_4 ./ex5_words.txt to
+./ex5_4: "to" is found in ./ex5_words.txt
+$ ./ex5_4 ./ex5_words.txt fail
+./ex5_4: "fail" is not found in ./ex5_words.txt
+$ ./ex5_4 ./ex5_words.txt is
+./ex5_4: "is" is not found in ./ex5_words.txt
+$ ./ex5_4 ./ex5_words.txt not
+./ex5_4: "not" is found in ./ex5_words.txt
+$ ./ex5_4 ./ex5_words.txt take
+./ex5_4: "take" is found in ./ex5_words.txt
+$ ./ex5_4 ./ex5_words.txt risk
+./ex5_4: "risk" is not found in ./ex5_words.txt

@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\ymmt8\workspace\coins18\2019\autumnAB\CG\6th\sample1\sample1\Source.cpp(129,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\ymmt8\workspace\coins18\2019\autumnAB\CG\6th\sample1\sample1\Source.cpp(138,14): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\ymmt8\workspace\coins18\2019\autumnAB\CG\6th\sample1\sample1\Source.cpp(140,22): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  sample1.vcxproj -> C:\Users\ymmt8\workspace\coins18\2019\autumnAB\CG\6th\sample1\Debug\sample1.exe

@@ -1,0 +1,33 @@
+学籍番号: 201811395
+氏名: 山本雄太
+演習番号: 3
+
+課題1を実行した結果を以下に示す.
+$ ./ex3_1
+sum = 206
+max = 97
+min = -71
+
+課題2を実行した結果を以下に示す.
+$ ./ex3_2
+"a" "A" 1: 0
+"a" "B" 1: -1
+"abc" "abc" 3: 0
+"abc" "abc" 10: 0
+"abc" "ABC" 10: 0
+"abc" "ABD" 3: -1
+"abc" "ABD" 10: -1
+"abd" "ABC" 3: 1
+"abd" "ABC" 10: 1
+"TsUkUbA" "tSuKuBa" 7: 0
+"IbArAgI" "iBaRaKi" 10: -1
+"IbArAkI" "iBaRaGi" 10: 1
+"IbArAgI" "iBaRaKi" 5: 0
+"IbArAkI" "iBaRaGi" 5: 0
+"" "" 10: 0
+"abc" "" 10: 1
+"" "def" 10: -1
+
+課題3を実行した結果を以下に示す.
+$ ./ex3_3 100
+50269 49731

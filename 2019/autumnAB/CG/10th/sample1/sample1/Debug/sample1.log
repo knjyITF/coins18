@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\ymmt8\workspace\coins18\2019\autumnAB\CG\10th\sample1\sample1\Source.cpp(154,20): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\ymmt8\workspace\coins18\2019\autumnAB\CG\10th\sample1\sample1\Source.cpp(236,20): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  sample1.vcxproj -> C:\Users\ymmt8\workspace\coins18\2019\autumnAB\CG\10th\sample1\Debug\sample1.exe
